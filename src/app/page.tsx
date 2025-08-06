@@ -226,9 +226,9 @@ export default function Home() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4, duration: 0.6 }}
               >
-                <span className="text-gray-400">"</span>
+                <span className="text-gray-400">&ldquo;</span>
                 {currentProfile.motto}
-                <span className="text-gray-400">"</span>
+                <span className="text-gray-400">&ldquo;</span>
               </motion.p>
 
               <motion.div
@@ -446,7 +446,7 @@ export default function Home() {
             className="text-5xl md:text-7xl font-display font-bold mb-8"
           >
             <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-              Let's Connect
+              Let&apos;s Connect
             </span>
           </motion.h2>
 
@@ -457,7 +457,7 @@ export default function Home() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="text-xl md:text-2xl text-gray-300 mb-16 font-light leading-relaxed"
           >
-            Ready to bring your ideas to life? Let's collaborate and create something amazing together.
+            Ready to bring your ideas to life? Let&apos;s collaborate and create something amazing together.
           </motion.p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -496,7 +496,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-gray-400 font-light tracking-wide"
           >
-            © 2024 Dimas Surya Frannanta. Crafted with passion and precision.
+            © 2025 Dimas Surya Frannanta. Crafted with passion and precision.
           </motion.p>
         </div>
       </footer>
